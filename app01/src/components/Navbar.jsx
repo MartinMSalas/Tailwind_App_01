@@ -26,11 +26,11 @@ const Navbar = () => {
           <button className='px-8 py-3'>Sign Up</button>
         </div>
         <div className='md:hidden' onClick={handleMenuClick}>
-          {!nav ? <Bars3Icon className="w-5 py-5"/> : <XMarkIcon className='w-5 py-5'></XMarkIcon>}
+          {!nav ? <Bars3Icon className="w-8 py-5"/> : <XMarkIcon className='w-8 py-5'></XMarkIcon>}
           
         </div>
       </div>
-      <ul className='absolute bg-zinc-200 w-full px-8'>
+      <ul className={!nav ? "hidden" : 'absolute bg-zinc-200 w-full px-8 md:hidden'}>
         <li className='border-b-2 border-zinc-300 w-full'>Home</li>
         <li className='border-b-2 border-zinc-300 w-full'>About</li>
         <li className='border-b-2 border-zinc-300 w-full'>Support</li>
