@@ -20,11 +20,18 @@ const Navbar = () => {
           <button className='border-none bg-transparent text-black mr-4'>Sign In</button>
           <button className='px-8 py-3'>Sign Up</button>
         </div>
-        
-
-        <Bars3Icon className="h-6 w-6 text-blue-500"/>
+        <div className='md:hidden'>
+          <Bars3Icon className="w-5"/>
+        </div>
       </div>
-      
+      <ul className='absolute bg-zinc-200 w-full px-8'>
+        <li className='border-b-2 border-zinc-300 w-full'>Home</li>
+        <li className='border-b-2 border-zinc-300 w-full'>About</li>
+        <li className='border-b-2 border-zinc-300 w-full'>Support</li>
+        <li className='border-b-2 border-zinc-300 w-full'>Platforms</li>
+        <li className='border-b-2 border-zinc-300 w-full'>Platforms</li>
+        <li className='border-b-2 border-zinc-300 w-full'>Pricing</li>
+      </ul>
     </div>
    )
 }
