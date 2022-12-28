@@ -1,9 +1,12 @@
 import React, {useState}  from 'react';
-import {Bars3Icon, } from "@heroicons/react/24/outline"
+import {Bars3Icon, XMarkIcon} from "@heroicons/react/24/outline"
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
-  
+  const handleMenuClick = () => {
+    setNav(!nav);
+  };
+
   return ( 
     <div className='w-screen h-[80px] z-10 bg-zinc-200 fixed drop-shadlow-lg'>
       <div className='px-2 flex justify-between item-center w-full h-full'>
@@ -22,8 +25,9 @@ const Navbar = () => {
           <button className='border-none bg-transparent text-black mr-4'>Sign In</button>
           <button className='px-8 py-3'>Sign Up</button>
         </div>
-        <div className='md:hidden'>
-          <Bars3Icon className="w-5"/>
+        <div className='md:hidden' onClick={handleMenuClick}>
+          {!nav ? <Bars3Icon className="w-5 py-5"/> : <XMarkIcon className='w-5 py-5'></XMarkIcon>}
+          
         </div>
       </div>
       <ul className='absolute bg-zinc-200 w-full px-8'>
