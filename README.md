@@ -6,3 +6,7 @@ Tailwind repaso -- Actual
 
 Part 2
 implementacion del repaso
+
+
+- Part 3 
+New year eve
