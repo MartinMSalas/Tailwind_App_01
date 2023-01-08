@@ -2,7 +2,7 @@ import React from "react";
 
 import {
   CloudIcon,
-  DatabaseIcon,
+  CircleStackIcon,
   PaperAirplaneIcon,
   ServerIcon,
 } from "@heroicons/react/24/solid";
@@ -23,13 +23,13 @@ const Hero = () => {
         <div>
           <img src={bgImg} alt="/"></img>
         </div>
-        <div className="absolute flex flex-col py-8 md:min-w-[760] bottom-[-5%] mx-1 md:left-1/2 transform md:-translate-x-1/2 bg-zinc-200 borderborder-slate-300 rounded-xl text-center shadow-xl">
+        <div className="absolute flex flex-col py-8 md:min-w-[760] bottom-[5%] mx-1 md:left-1/2 transform md:-translate-x-1/2 bg-zinc-200 border border-slate-300 rounded-xl text-center shadow-xl">
           <p>Data Services</p>
-          <div>
-            <p><CloudUploadIcon></CloudUploadIcon> App Security</p>
-            <p><DatabaseIcon></DatabaseIcon>Dashboard Design</p>
-            <p><ServerIcon></ServerIcon>Cloud Data</p>
-            <p><PaperAirplaneIcon></PaperAirplaneIcon>API</p>
+          <div className="flex justify-between flex-wrap px-4">
+            <p className="flex px-4 py-2 text-slate-500"><CloudIcon className="h-6 text-indigo-600"></CloudIcon> App Security</p>
+            <p className="flex px-4 py-2 text-slate-500"><CircleStackIcon className="h-6 text-indigo-600"></CircleStackIcon>Dashboard Design</p>
+            <p className="flex px-4 py-2 text-slate-500"><ServerIcon className="h-6 text-indigo-600"></ServerIcon>Cloud Data</p>
+            <p className="flex px-4 py-2 text-slate-500"><PaperAirplaneIcon className="h-6 text-indigo-600"></PaperAirplaneIcon>API</p>
           </div>
         </div>
       </div>
