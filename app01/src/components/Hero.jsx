@@ -1,11 +1,11 @@
 import React from "react";
 
 import {
-  CloudUploadIcon,
+  CloudIcon,
   DatabaseIcon,
   PaperAirplaneIcon,
   ServerIcon,
-} from "@heroicons/react/solid";
+} from "@heroicons/react/24/solid";
 
 import bgImg from "../assets/cyber-bg.png";
 const Hero = () => {
@@ -26,10 +26,10 @@ const Hero = () => {
         <div className="absolute flex flex-col py-8 md:min-w-[760] bottom-[-5%] mx-1 md:left-1/2 transform md:-translate-x-1/2 bg-zinc-200 borderborder-slate-300 rounded-xl text-center shadow-xl">
           <p>Data Services</p>
           <div>
-            <p>Icon App Security</p>
-            <p>Icon Dashboard Design</p>
-            <p>Icon Cloud Data</p>
-            <p>Icon API</p>
+            <p><CloudUploadIcon></CloudUploadIcon> App Security</p>
+            <p><DatabaseIcon></DatabaseIcon>Dashboard Design</p>
+            <p><ServerIcon></ServerIcon>Cloud Data</p>
+            <p><PaperAirplaneIcon></PaperAirplaneIcon>API</p>
           </div>
         </div>
       </div>
