@@ -8,8 +8,9 @@ function App() {
     <>
       <Navbar></Navbar>
       <Hero></Hero>
-      <Support></Support>
+      
       <About></About>
+      <Support></Support>
     </>
   )
       
