@@ -28,8 +28,7 @@ const Support = () => {
               <p className="flex items-center text-indigo-600">Contact Us <ArrowSmallRightIcon className="w-5 ml-2"></ArrowSmallRightIcon></p>
             </div>
           </div>
-        </div>
-        <div className="grid grid-cols-1 lg:grid-cols-3 relative gapx-x-8 gap-y-16 pt-12 sm:pt-20 text-black">
+        
           <div className="bg-white rounded-xl shadow-2xl">
             <div className="p-8">
               <UserGroupIcon className="w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]"> </UserGroupIcon>
@@ -40,8 +39,7 @@ const Support = () => {
               <p className="flex items-center text-indigo-600">Contact Us <ArrowSmallRightIcon className="w-5 ml-2"></ArrowSmallRightIcon></p>
             </div>
           </div>
-        </div>
-        <div className="grid grid-cols-1 lg:grid-cols-3 relative gapx-x-8 gap-y-16 pt-12 sm:pt-20 text-black">
+        
           <div className="bg-white rounded-xl shadow-2xl">
             <div className="p-8">
               <CpuChipIcon className="w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]"> </CpuChipIcon>
