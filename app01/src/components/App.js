@@ -1,4 +1,5 @@
 import About from "./About";
+import AllInOne from "./AllInOne";
 import Hero from "./Hero";
 import Navbar from "./Navbar";
 import Support from "./Support";
@@ -11,6 +12,7 @@ function App() {
       
       <About></About>
       <Support></Support>
+      <AllInOne></AllInOne>
     </>
   )
       
