@@ -10,14 +10,94 @@ const AllInOne = () => {
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-4">
           <div className="flex">
-            
-              <CheckIcon className="w-7 mr-4 text-green-600"></CheckIcon>
+              <div>
+
+                <CheckIcon className="w-7 mr-4 text-green-600"></CheckIcon>
+              </div>
               <div>
                 <h3 className="font-bold text-lg">Notifications</h3>
-                <p className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam asperiores tenetur sit nulla? Incidunt, quibusdam!</p>
+                <p className="text-lg pt-2 pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam asperiores tenetur sit nulla? Incidunt, quibusdam!</p>
               </div>
             
           </div>
+          <div className="flex">
+              <div>
+
+                <CheckIcon className="w-7 mr-4 text-green-600"></CheckIcon>
+              </div>
+              <div>
+                <h3 className="font-bold text-lg">Notifications</h3>
+                <p className="text-lg pt-2 pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam asperiores tenetur sit nulla? Incidunt, quibusdam!</p>
+              </div>
+            
+          </div>
+          <div className="flex">
+              <div>
+
+                <CheckIcon className="w-7 mr-4 text-green-600"></CheckIcon>
+              </div>
+              <div>
+                <h3 className="font-bold text-lg">Notifications</h3>
+                <p className="text-lg pt-2 pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam asperiores tenetur sit nulla? Incidunt, quibusdam!</p>
+              </div>
+            
+          </div>
+          <div className="flex">
+              <div>
+
+                <CheckIcon className="w-7 mr-4 text-green-600"></CheckIcon>
+              </div>
+              <div>
+                <h3 className="font-bold text-lg">Notifications</h3>
+                <p className="text-lg pt-2 pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam asperiores tenetur sit nulla? Incidunt, quibusdam!</p>
+              </div>
+            
+          </div>
+          <div className="flex">
+              <div>
+
+                <CheckIcon className="w-7 mr-4 text-green-600"></CheckIcon>
+              </div>
+              <div>
+                <h3 className="font-bold text-lg">Notifications</h3>
+                <p className="text-lg pt-2 pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam asperiores tenetur sit nulla? Incidunt, quibusdam!</p>
+              </div>
+            
+          </div>
+          <div className="flex">
+              <div>
+
+                <CheckIcon className="w-7 mr-4 text-green-600"></CheckIcon>
+              </div>
+              <div>
+                <h3 className="font-bold text-lg">Notifications</h3>
+                <p className="text-lg pt-2 pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam asperiores tenetur sit nulla? Incidunt, quibusdam!</p>
+              </div>
+            
+          </div>
+          <div className="flex">
+              <div>
+
+                <CheckIcon className="w-7 mr-4 text-green-600"></CheckIcon>
+              </div>
+              <div>
+                <h3 className="font-bold text-lg">Notifications</h3>
+                <p className="text-lg pt-2 pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam asperiores tenetur sit nulla? Incidunt, quibusdam!</p>
+              </div>
+            
+          </div>
+          <div className="flex">
+              <div>
+
+                <CheckIcon className="w-7 mr-4 text-green-600"></CheckIcon>
+              </div>
+              <div>
+                <h3 className="font-bold text-lg">Notifications</h3>
+                <p className="text-lg pt-2 pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam asperiores tenetur sit nulla? Incidunt, quibusdam!</p>
+              </div>
+            
+          </div>
+          
         </div>
       </div>
     </div>
